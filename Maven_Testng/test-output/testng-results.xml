@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-23T14:56:45 IST" name="Suite" finished-at="2025-05-23T14:57:37 IST" duration-ms="52456">
+    <groups>
+    </groups>
+    <test started-at="2025-05-23T14:56:45 IST" name="Test" finished-at="2025-05-23T14:57:37 IST" duration-ms="52456">
+      <class name="Maven_Testng_package.DataProviderClass">
+        <test-method signature="search([Ljava.lang.String;)[pri:0, instance:Maven_Testng_package.DataProviderClass@3c77d488]" started-at="2025-05-23T14:56:45 IST" name="search" data-provider="search" finished-at="2025-05-23T14:56:53 IST" duration-ms="8122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1b6924cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search([Ljava.lang.String;)[pri:0, instance:Maven_Testng_package.DataProviderClass@3c77d488]" started-at="2025-05-23T14:56:53 IST" name="search" data-provider="search" finished-at="2025-05-23T14:56:59 IST" duration-ms="5816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@135a8c6f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search([Ljava.lang.String;)[pri:0, instance:Maven_Testng_package.DataProviderClass@3c77d488]" started-at="2025-05-23T14:56:59 IST" name="search" data-provider="search" finished-at="2025-05-23T14:57:05 IST" duration-ms="5283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3ebe4ccc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search([Ljava.lang.String;)[pri:0, instance:Maven_Testng_package.DataProviderClass@3c77d488]" started-at="2025-05-23T14:57:05 IST" name="search" data-provider="search" finished-at="2025-05-23T14:57:11 IST" duration-ms="6813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6419a0e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search([Ljava.lang.String;)[pri:0, instance:Maven_Testng_package.DataProviderClass@3c77d488]" started-at="2025-05-23T14:57:11 IST" name="search" data-provider="search" finished-at="2025-05-23T14:57:18 IST" duration-ms="6793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3a8d467e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search([Ljava.lang.String;)[pri:0, instance:Maven_Testng_package.DataProviderClass@3c77d488]" started-at="2025-05-23T14:57:18 IST" name="search" data-provider="search" finished-at="2025-05-23T14:57:25 IST" duration-ms="6710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@141d3d43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search([Ljava.lang.String;)[pri:0, instance:Maven_Testng_package.DataProviderClass@3c77d488]" started-at="2025-05-23T14:57:25 IST" name="search" data-provider="search" finished-at="2025-05-23T14:57:32 IST" duration-ms="6719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6ca372ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search([Ljava.lang.String;)[pri:0, instance:Maven_Testng_package.DataProviderClass@3c77d488]" started-at="2025-05-23T14:57:32 IST" name="search" data-provider="search" finished-at="2025-05-23T14:57:37 IST" duration-ms="5532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6ed043d3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- Maven_Testng_package.DataProviderClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
