@@ -1,0 +1,5 @@
+FName,LName,Day,Month,Year,Gender,Email,Password 
+Gayathri,R,19,May,1998,Female,rgayu1998@gmail.com,Rgayu@1998 
+Ramya,S,2,JANUARY,2000,Female,ramya2000@gmail.com,Ramya@2000
+Shivan,S,30,MARCH,1989,Male,shivan1989@gmail.com,Shivan@1989
+Raju,Bai,29,JUNE,2020,Custom,raju2020@gmail.com,Raju@2020

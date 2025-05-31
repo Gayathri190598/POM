@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-29T21:07:00 IST" name="Suite" finished-at="2025-05-29T21:08:26 IST" duration-ms="86097">
+    <groups>
+    </groups>
+    <test started-at="2025-05-29T21:07:00 IST" name="Test" finished-at="2025-05-29T21:08:26 IST" duration-ms="86097">
+      <class name="com.facebook.Test.TC001_Register">
+        <test-method is-config="true" signature="startExtentReport()[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:06:59 IST" name="startExtentReport" finished-at="2025-05-29T21:07:00 IST" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:07:00 IST" name="setData" finished-at="2025-05-29T21:07:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:07:00 IST" name="browserSetUp" finished-at="2025-05-29T21:07:18 IST" duration-ms="17807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="test_RegisterPage([Ljava.lang.String;)[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:07:21 IST" name="test_RegisterPage" data-provider="userData" finished-at="2025-05-29T21:07:37 IST" duration-ms="15830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@19489b27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RegisterPage -->
+        <test-method signature="test_RegisterPage([Ljava.lang.String;)[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:07:37 IST" name="test_RegisterPage" data-provider="userData" finished-at="2025-05-29T21:07:45 IST" duration-ms="7283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4f116ca2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RegisterPage -->
+        <test-method signature="test_RegisterPage([Ljava.lang.String;)[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:07:45 IST" name="test_RegisterPage" data-provider="userData" finished-at="2025-05-29T21:07:52 IST" duration-ms="7153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@590765c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RegisterPage -->
+        <test-method signature="test_RegisterPage([Ljava.lang.String;)[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:07:52 IST" name="test_RegisterPage" data-provider="userData" finished-at="2025-05-29T21:07:59 IST" duration-ms="7692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@626d2016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RegisterPage -->
+        <test-method signature="test_RegisterPage([Ljava.lang.String;)[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:07:59 IST" name="test_RegisterPage" data-provider="userData" finished-at="2025-05-29T21:08:06 IST" duration-ms="6553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@125d47c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RegisterPage -->
+        <test-method signature="test_RegisterPage([Ljava.lang.String;)[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:08:06 IST" name="test_RegisterPage" data-provider="userData" finished-at="2025-05-29T21:08:14 IST" duration-ms="7526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@193bb809]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RegisterPage -->
+        <test-method signature="test_RegisterPage([Ljava.lang.String;)[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:08:14 IST" name="test_RegisterPage" data-provider="userData" finished-at="2025-05-29T21:08:17 IST" duration-ms="3321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@64b018f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RegisterPage -->
+        <test-method signature="test_RegisterPage([Ljava.lang.String;)[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:08:17 IST" name="test_RegisterPage" data-provider="userData" finished-at="2025-05-29T21:08:21 IST" duration-ms="3864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2d5a1588]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RegisterPage -->
+        <test-method signature="test_RegisterPage([Ljava.lang.String;)[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:08:21 IST" name="test_RegisterPage" data-provider="userData" finished-at="2025-05-29T21:08:26 IST" duration-ms="5145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4d705112]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_RegisterPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:08:26 IST" name="tearDown" finished-at="2025-05-29T21:08:26 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopExtentReport()[pri:0, instance:com.facebook.Test.TC001_Register@13d73f29]" started-at="2025-05-29T21:08:26 IST" name="stopExtentReport" finished-at="2025-05-29T21:08:27 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopExtentReport -->
+      </class> <!-- com.facebook.Test.TC001_Register -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
