@@ -30,7 +30,7 @@ public class RegisterStep {
 	    logger.info("The expected page title is : "+ConstantsVariable.expectedTitle+"\n");
 	    Assert.assertEquals(actualtitle, expectedTitle);
 	    logger.info("The actual and expected page title is not same.\n");
-		CommonUtils.getInstance().takesScreenshot();
+		//CommonUtils.getInstance().takesScreenshot();
 	}
 	
 	@When("enter first name {string}")
@@ -85,7 +85,6 @@ public class RegisterStep {
 	@Then("click on the submit button")
 	public void clickOnTheSubmitButton() {
 		Register.getInstance().clickSubmit();
-		CommonUtils.getInstance().takesScreenshot();
 		logger.info("The user clicks the submit button...\n");
 	}
 

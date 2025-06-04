@@ -54,15 +54,14 @@ public class CommonUtils {
 		PageFactory.initElements(DriverManager.getDriver(), Register.getInstance());
 	}
 	
-	public void takesScreenshot() {
-		File screenshot=((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
-		try {
-			FileUtils.copyFile(screenshot, new File(BaseStep.getScenarioName()+".png"));
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
-		
-	}
+	/*
+	 * public void takesScreenshot() { File screenshot=((TakesScreenshot)
+	 * DriverManager.getDriver()).getScreenshotAs(OutputType.FILE); try {
+	 * FileUtils.copyFile(screenshot, new File(BaseStep.getScenarioName()+".png"));
+	 * } catch (IOException e1) { e1.printStackTrace(); }
+	 * 
+	 * }
+	 */
 	
 	
 
