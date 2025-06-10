@@ -9,6 +9,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 
+import pageObjects.PageTitle;
 import pageObjects.Register;
 import steps.BaseStep;
 
@@ -51,17 +52,23 @@ public class CommonUtils {
 	}
 	
 	public void initWebElements() {
+		PageFactory.initElements(DriverManager.getDriver(), PageTitle.getInstance());
 		PageFactory.initElements(DriverManager.getDriver(), Register.getInstance());
+		
 	}
 	
-	/*
-	 * public void takesScreenshot() { File screenshot=((TakesScreenshot)
-	 * DriverManager.getDriver()).getScreenshotAs(OutputType.FILE); try {
-	 * FileUtils.copyFile(screenshot, new File(BaseStep.getScenarioName()+".png"));
-	 * } catch (IOException e1) { e1.printStackTrace(); }
-	 * 
-	 * }
-	 */
+	
+	public void takesScreenshot() {
+		File screenshot=((TakesScreenshot)DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(screenshot, new File(BaseStep.getScenarioName()+".png"));
+		} 
+		catch (IOException e1) { 
+			e1.printStackTrace(); 
+		}
+
+	}
+	 
 	
 	
 

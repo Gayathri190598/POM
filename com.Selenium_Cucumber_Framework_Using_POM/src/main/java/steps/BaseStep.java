@@ -56,17 +56,19 @@ public class BaseStep {
 	}
 	
 	
-	/*
-	 * @AfterStep public void attachScreenshot(Scenario scenario) {
-	 * if(scenario.isFailed()) { byte[] screenshot=((TakesScreenshot)
-	 * DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES);
-	 * scenario.attach(screenshot, "image/png", getScenarioName()); } }
-	 */
-
+	
+	  @AfterStep 
+	  public void attachScreenshot(Scenario scenario) {
+	  if(scenario.isFailed()) {
+		  byte[] screenshot=((TakesScreenshot)DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES);
+		  scenario.attach(screenshot, "image/png", getScenarioName()); 
+	  }
+	      }
+	
 	
 	@After
 	public void tearDown() {
-		DriverManager.getDriver().quit();
+	//	DriverManager.getDriver().quit();
 	}
 
 }

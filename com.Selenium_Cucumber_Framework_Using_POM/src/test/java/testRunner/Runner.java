@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @CucumberOptions(
 		features="src/test/resources/feature" , 
 		glue="steps",
-		//dryRun = !true,
+	    //dryRun = true,
 		monochrome=true,
 		snippets = SnippetType.CAMELCASE,
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
